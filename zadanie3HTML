@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <container class="container">
+      <header class="header">
+        <h1>INTER CARS</h1>
+      </header>
+      <fieldset class="logowanie">
+        <legend>Logowanie</legend>
+        <label>
+          Login:<input type="login" name="login" placeholder="XYZ" />
+          Hasło:<input type="password" name="passwd" placeholder="*******" />
+        </label>
+        <input type="submit" name="zaloguj" value="Zaloguj" />
+      </fieldset>
+      <main class="main">
+        <fieldset class="kupno">
+          <legend>Wybór samochodu</legend>
+          <label>
+            Marka:
+            <select>
+              <optgroup>
+                <option>Maseratti</option>
+                <option>Mercedes</option>
+                <option>Audi</option>
+                <option>BMW</option>
+                <option>Porshe</option>
+              </optgroup>
+            </select>
+          </label>
+          <label> Kolor samochodu: <input type="color" name="kolor1" /> </label>
+          <label> Kolor tapicerki: <input type="color" name="kolor2" /> </label>
+        </fieldset>
+      </main>
+      <fieldset class="dane">
+        <legend>Dane osobowe</legend>
+        Imię: <input type="text" name="imie" placeholder="Jan" /> Nazwisko:
+        <input type="text" name="nazwisko" placeholder="Kowalski" /> Adres
+        zamieszkania: <input type="text" name="adres" /> Email:
+        <input type="email" name="email" placeholder="coś@gmail.com" /> Data
+        urodzenia: <input type="date" name="data" />
+      </fieldset>
+    </container>
+  </body>
+</html>
